@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-17T18:36:02 IST" name="Default suite" finished-at="2020-04-17T18:36:40 IST" duration-ms="37972">
+    <groups>
+    </groups>
+    <test started-at="2020-04-17T18:36:02 IST" name="Default test" finished-at="2020-04-17T18:36:40 IST" duration-ms="37972">
+      <class name="Tests.TestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TestCase@4f6ee6e4]" started-at="2020-04-17T18:36:02 IST" name="setup" finished-at="2020-04-17T18:36:07 IST" duration-ms="5018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_UserRegister()[pri:0, instance:Tests.TestCase@4f6ee6e4]" started-at="2020-04-17T18:36:07 IST" name="test_UserRegister" finished-at="2020-04-17T18:36:19 IST" duration-ms="12182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_UserRegister -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Tests.TestCase@4f6ee6e4]" started-at="2020-04-17T18:36:19 IST" name="closeBrowser" finished-at="2020-04-17T18:36:20 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TestCase@4f6ee6e4]" started-at="2020-04-17T18:36:20 IST" name="setup" finished-at="2020-04-17T18:36:24 IST" duration-ms="4302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_FlightsBooking()[pri:1, instance:Tests.TestCase@4f6ee6e4]" started-at="2020-04-17T18:36:24 IST" name="test_FlightsBooking" finished-at="2020-04-17T18:36:40 IST" duration-ms="16118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_FlightsBooking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Tests.TestCase@4f6ee6e4]" started-at="2020-04-17T18:36:40 IST" name="closeBrowser" finished-at="2020-04-17T18:36:40 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Tests.TestCase@4f6ee6e4]" started-at="2020-04-17T18:36:40 IST" name="Teardown" finished-at="2020-04-17T18:36:41 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Tests.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
