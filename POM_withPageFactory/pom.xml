@@ -3,7 +3,7 @@
   <groupId>POM_withPageFactory</groupId>
   <artifactId>POM_withPageFactory_GIT</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>			
+   <dependencies>			
         <dependency>				
              <groupId>junit</groupId>								
              <artifactId>junit</artifactId>								
@@ -21,6 +21,7 @@
             <version>6.8.8</version>															  			
        </dependency>				
 </dependencies>
+  
   
   
   <build>
@@ -41,6 +42,20 @@
           <release>13</release>
         </configuration>
       </plugin>
+      
+       <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.14.1</version>
+                <configuration>
+                    <!-- Suite testng xml file to consider for test execution -->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                       
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+      
     </plugins>
   </build>
 </project>
